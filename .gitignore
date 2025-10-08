@@ -196,3 +196,10 @@ cython_debug/
 #/logs/(*.log|*.txt)
 **.log
 **.txt
+__pycache__/
+*.pyc
+.venv/
+.env
+.data/
+data/
+*.json
