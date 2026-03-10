@@ -1,5 +1,5 @@
 [project]
-name = "coursework-2"
+name = "job_tracker"
 version = "0.1.0"
 description = ""
 authors = [
@@ -8,13 +8,17 @@ authors = [
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "python-dotenv (>=1.1.1,<2.0.0)"
+    "python-dotenv (>=1.1.1,<2.0.0)",
+    "requests (>=2.32.5,<3.0.0)"
 ]
 
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+package-mode = false
 
 [tool.poetry.group.lint.dependencies]
 flake8 = "^7.3.0"
